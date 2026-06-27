@@ -140,7 +140,7 @@ export default function Hero() {
         {loading && (
           <p className="mx-auto mt-4 max-w-3xl rounded-xl border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-700">
             Cloning, scanning, and generating AI onboarding guide. This may take
-            a few seconds...
+            a minute...
           </p>
         )}
 
