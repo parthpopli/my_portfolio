@@ -17,7 +17,7 @@ export default function AskRepo({ projectContext }: Props) {
       setAsking(true);
       setAnswer("");
 
-      const res = await axios.post("https://repolens-backend-tpiv.onrender.com/ask", {
+      const res = await axios.post("https://repolens-9yab.onrender.com/ask", {
         question: question.trim(),
         project_context: projectContext,
       });
